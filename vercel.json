@@ -1,18 +1,8 @@
 {
-  "functions": {
-    "api/reports.js": {
-      "maxDuration": 30
-    }
-  },
-  "headers": [
+  "rewrites": [
     {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-store"
-        }
-      ]
+      "source": "/admin",
+      "destination": "/admin.html"
     }
   ]
 }
