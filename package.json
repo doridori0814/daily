@@ -1,8 +1,8 @@
-﻿{
+{
   "name": "market-research-app",
   "version": "0.1.0",
   "private": true,
-  "description": "Daily market research web app prototype",
+  "description": "Daily market research app",
   "scripts": {
     "start": "node server.js",
     "dev": "vercel dev",
